@@ -19,9 +19,76 @@ html {
 	text-size-adjust: 100%;
     
     font-size: 100%;
+    font-family: Garamond, "Times New Roman", serif;
+    color: #FFF;
+    background-color:#000066
 }
 
 img {
 	width: 100%;
     display: block;
 }
+
+body {
+    margin: 0;
+    padding 0;
+}
+
+article {
+    margin 0;
+    padding: 0 5%;
+    overflow: hidden;
+}
+
+h1 {
+    font-family: Rockwell, Times, serif;
+    margin: 3rem 5%;
+    font-weight: normal;
+    font-size: 2.5rem;
+    line-height: 3rem;
+}
+
+.masthead {
+    height: 4rem;
+    background-color: yellow;
+    overflow: hidden;
+}
+    
+.logo {
+    height: 3rem;
+    width:auto;
+    margin: .5rem;
+}
+
+.dropcap:first-letter{
+    font-size: 4rem;
+    font-weight: bold;
+    float: left;
+    color: yellow;
+    margin: .5rem;
+    line-height: .8;
+}
+
+em {
+    font-style: oblique;
+    color: yellow;
+}
+
+strong{
+    font-weight: bold;
+    color: #FF3333;
+}
+
+figcaption {
+    font-weight: bold
+}
+
+summary {
+    font-size: 1.5rem;
+    font-weight:bold;
+    color: #FF3333
+}
+
+
+    
+    
