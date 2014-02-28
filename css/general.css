@@ -128,7 +128,8 @@ blockquote p:before {
     font-size: 5rem;
     color: yellow;
     float: left;
-    margin: -1rem 1rem;   
+    margin: -1rem .5rem;
+    
 }
 blockquote p:after {
     content: "”";
