@@ -130,6 +130,7 @@ blockquote p:before {
     color: yellow;
     float: left;
     margin: -1rem 0 2rem;
+    padding: -1rem 0;
     line-height: 6rem;
     
 }
