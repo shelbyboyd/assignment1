@@ -93,12 +93,12 @@ summary {
 
 .billboard {
     margin: 1rem;
-    padding: 0 4rem;
+    padding: 1rem 4rem;
     overflow:hidden;
     background-image: url(../images/boyzlogo.svg);
     background-repeat:no-repeat;
     background-size: 25rem;
-    background-position: center center;
+    background-position: center;
     border: solid .25rem red;
 }
 
