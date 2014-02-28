@@ -94,6 +94,7 @@ summary {
     margin: .5rem;
     padding: .5rem 0;
     overflow:hidden;
+    background-color: yellow;
     background-image: url(../images/boyzlogo.svg);
     background-repeat:no-repeat;
     background-size: 20rem;
