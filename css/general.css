@@ -115,6 +115,7 @@ blockquote {
 
 blockquote p {
     font-size: 1rem;
+    padding: 0 1rem;
 }
 
 blockquote span {
