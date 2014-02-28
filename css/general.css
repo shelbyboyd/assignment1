@@ -130,7 +130,6 @@ blockquote p:before {
     float: left;
     margin: -1rem 0;
     padding: -1rem 0;
-    line-height: 8rem;
 }
 
 blockquote p:after {
