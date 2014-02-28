@@ -114,8 +114,9 @@ blockquote {
 }
 
 blockquote p {
-    font-size: 1rem;
-    padding: 0 1rem
+    font-size: 1.rem;
+    padding: 0 1.5rem 0 0;
+    text-align: center;
 }
 
 blockquote span {
@@ -135,11 +136,11 @@ blockquote p:before {
 
 blockquote p:after {
     content: "”";
-    font-size: 3rem;
+    font-size: 4rem;
     float: right;
     color: yellow;
-    margin: -1.5rem -6.7rem -1rem;
-    padding: 0 1rem;
+    margin: -0.51rem -7.5rem;
+    padding: 3rem -3rem;
 }
 
 footer {
