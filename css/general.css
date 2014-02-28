@@ -68,9 +68,9 @@ h1 {
 }
     
 .logo {
-    height: 2rem;
+    height: 3rem;
     width:auto;
-    margin: .2rem;    
+    margin: .5rem;    
 }
 
 .dropcap:first-letter{
