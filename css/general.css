@@ -42,15 +42,15 @@ article {
 
 h1 {
     font-family: Rockwell, Times, serif;
-    margin: 1.5rem 1.5rem;
+    margin: 4rem 3.5rem 0 3.5rem;
     font-weight: bold;
-    font-size: 3rem;
-    line-height: 3.5rem;
+    font-size: 2rem;
+    color: black;
 }
 
 .masthead {
     height: 4rem;
-    background-color: yellow;
+    background-color: red;
     overflow: hidden;
 }
     
@@ -89,6 +89,58 @@ summary {
     color: #FF3333
 }
 
+.billboard {
+    margin: 1rem;
+    overflow:hidden;
+    background-image: url(../images/boyzlogo.svg);
+    background-repeat:no-repeat;
+    background-size: 25rem;
+    background-position: center center;
+    border: solid .25rem red;
+}
 
-    
-    
+h2 {
+    font-size: 2.5rem;
+    color: yellow;
+    font-weight: bold;
+}
+
+blockquote {
+    margin: 2rem 4rem;
+    overflow: hidden;
+}
+
+blockquote p {
+    font-size: 1rem;
+}
+
+blockquote span {
+    font-weight: bold;
+    float: right;
+    margin: 2rem 0;
+}
+
+blockquote p:before {
+    content: "“";
+    font-size: 5rem;
+    color: yellow;
+    float: left;
+    margin: -1rem 0;
+}
+
+blockquote p:after {
+    content: "”";
+    font-size: 5rem;
+    float: right;
+    color: yellow;
+    margin: -1rem -1rem;
+}
+
+footer {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 1rem 0;
+    padding: .1rem 5%;
+    background-color: red;
+    color: black;
+}
