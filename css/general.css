@@ -71,18 +71,17 @@ h1 {
     line-height: .8;
 }
 
-em {
+.hood { 
     font-style: oblique;
     color: yellow;
 }
-
-strong{
-    font-weight: bold;
-    color: #FF3333;
+em {
+    font-style: oblique;
 }
 
 figcaption {
-    font-weight: bold
+    font-weight: bold;
+    padding: .25rem 0 0 .5rem;
 }
 
 summary {
@@ -127,20 +126,18 @@ blockquote span {
 
 blockquote p:before {
     content: "“";
-    font-size: 4rem;
+    font-size: 5rem;
     color: yellow;
     float: left;
-    margin: -1rem 0;
+    margin: -2rem 0;
     padding: -3rem 3rem;
 }
-
 blockquote p:after {
     content: "”";
-    font-size: 4rem;
-    float: right;
+    font-size: 5rem;
+    position: absolute;
     color: yellow;
-    margin: -0.51rem -7.5rem;
-    padding: 3rem -3rem;
+    margin: -.5rem 1rem;
 }
 
 footer {
