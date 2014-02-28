@@ -109,19 +109,18 @@ h2 {
 }
 
 blockquote {
-    margin: 2rem 4rem;
+    margin: 1rem 1rem;
     overflow: hidden;
 }
 
 blockquote p {
     font-size: 1rem;
-    padding: .5rem 1rem 0;
 }
 
 blockquote span {
     font-weight: bold;
     float: right;
-    margin: 2rem 0;
+    margin: 1.5rem 0;
 }
 
 blockquote p:before {
@@ -129,18 +128,15 @@ blockquote p:before {
     font-size: 5rem;
     color: yellow;
     float: left;
-    margin: -1rem 0 2rem;
-    padding: -1rem 0;
-    line-height: 6rem;
-    
+    margin: -1rem 0;
 }
 
 blockquote p:after {
     content: "”";
-    font-size: 5rem;
+    font-size: 3rem;
     float: right;
     color: yellow;
-    margin: -2rem -8rem;
+    margin: -1.5rem -6.8rem;
 }
 
 footer {
