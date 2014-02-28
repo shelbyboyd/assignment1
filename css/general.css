@@ -56,7 +56,7 @@ h1 {
     margin: 0;
     padding: 11rem 0rem 0rem;
     font-weight: bold;
-    font-size: 2.rem;
+    font-size: 2rem;
     color: red;
     text-align: center;
 }
@@ -113,7 +113,7 @@ blockquote {
 }
 
 blockquote p {
-    font-size: 1.rem;
+    font-size: 1rem;
     padding: 0 1.5rem 0 0;
 }
 
